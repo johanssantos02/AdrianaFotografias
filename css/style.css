@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bd{
+    border: solid 1px black;
+}
+.bd2{
+    border-bottom: solid 1px gold;
+    margin-top: 50px;
+}
+
+.topo{
+    width: 100%;
+}
+.topo .logo img{
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+}
+.menu{
+    float: right;
+    margin-top: 7%;
+    margin-right: 8%;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 16px;
+}
+.menu ul li:hover{
+    border-bottom: 1px gold solid;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: Tahoma;
+}
+.clear{
+    clear: both;
+}
+.Galeria{
+    width: 100%;
+    height: 300px;
+}
+.sobreMim{
+height: 400px;
+}
+.sobreMim h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.biografia{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.sobreMim .imgBio, .bio{
+    width: 20%;
+    height: 300px;
+}
+.nossosTrabalhos h1{
+    text-align: center;
+    margin-top: 10px;
+}
