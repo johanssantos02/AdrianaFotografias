@@ -1,4 +1,4 @@
-$(function(){
+$(function () {
   $('.imagens').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -9,14 +9,20 @@ $(function(){
   });
   $('.img-nav').slick({
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     asNavFor: '.imagens',
     centerMode: true,
     focusOnSelect: true,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 2000,
     prevArrow: false,
-	 nextArrow: false,
+    nextArrow: false,
+    autoplaySpeed: 2000,
   });
-  });
+});
+
+var botao = document.querySelector('input[type=button]');
+
+botao.addEventListener('click', ()=>{
+  alert('Mensagem enviada com sucesso!')
+})

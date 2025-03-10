@@ -30,30 +30,32 @@ html {
 .topo {
     width: 100%;
     background-color: #262626;
-    height: 160px;
+    height: 240px;
 }
 
 .topo .logo img {
-    width: 14%;
+    width: 20%;
     float: left;
-    margin-left: 12%;
+    margin-left: 40%;
+    margin-top: -40px;
     position: absolute;
+    text-align: center;
 }
 
 .menu {
-    float: right;
-    margin-top: 6%;
-    margin-right: 8%;
+    float: left;
+    margin-top:12%;
+    margin-left: 15%;
 }
 
 .menu ul li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 40px;
     font-size: 16px;
 }
 
-.menu ul li:hover {
-    border-bottom: 1px gold solid;
+.menu ul :hover {
+    color: pink;
 }
 
 .menu a {
@@ -165,7 +167,7 @@ html {
 }
 
 .imgBio {
-    background-image: url(./imagens/perfil.jpeg);
+    background-image: url(../imagens/perfil.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -234,45 +236,51 @@ html {
 }
 
 #img1 {
-    background-image: url(./imagens/gestante.jpeg);
+    background-image: url(../imagens/gestante.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 #img2 {
-    background-image: url(./imagens/casamentos.jpeg);
+    background-image: url(../imagens/casamentos.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 #img3 {
-    background-image: url(./imagens/familias.jpeg);
+    background-image: url(../imagens/familias.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 #img4 {
-    background-image: url(./imagens/eventos.jpeg);
+    background-image: url(../imagens/eventos.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 #img5 {
-    background-image: url(./imagens/execultivo.jpeg);
+    background-image: url(../imagens/execultivo.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 #img6 {
-    background-image: url(./imagens/bebes.jpeg);
+    background-image: url(../imagens/bebes.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    cursor: grab;
 }
 
 .faleConosco h1 {
@@ -345,23 +353,22 @@ html {
     margin-right: 10px;
 }
 .whats{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     float: right;
     border-radius: 40px;
     position: fixed;
-    top: 520px;
-    left: 1220px;
-    background-image: url(../imagens/whatsapp\ \(1\).png);
+    top: 530px;
+    left: 1260px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     cursor: pointer;
 
 }
 .whats img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 footer {
