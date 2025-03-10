@@ -165,7 +165,7 @@ html {
 }
 
 .imgBio {
-    background-image: url(/imagens/perfil.jpeg);
+    background-image: url(./imagens/perfil.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -234,42 +234,42 @@ html {
 }
 
 #img1 {
-    background-image: url(/imagens/gestante.jpeg);
+    background-image: url(./imagens/gestante.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #img2 {
-    background-image: url(/imagens/casamentos.jpeg);
+    background-image: url(./imagens/casamentos.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #img3 {
-    background-image: url(/imagens/familias.jpeg);
+    background-image: url(./imagens/familias.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #img4 {
-    background-image: url(/imagens/eventos.jpeg);
+    background-image: url(./imagens/eventos.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #img5 {
-    background-image: url(/imagens/execultivo.jpeg);
+    background-image: url(./imagens/execultivo.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 #img6 {
-    background-image: url(/imagens/bebes.jpeg);
+    background-image: url(./imagens/bebes.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
