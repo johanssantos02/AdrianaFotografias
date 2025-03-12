@@ -29,6 +29,10 @@ html {
     width: 235px;
     height: 200px;
 }
+.banner{
+    background-color: #2C3532;
+    
+}
 
 /*final dos frameworks*/
 .topo {
@@ -189,7 +193,6 @@ html {
 
 .bio p {
     text-align: justify;
-    /* font-weight: lighter; */
     line-height: 30px;
     overflow: hidden;
     height: 450px;
@@ -421,4 +424,56 @@ footer {
 footer a {
     text-decoration: none;
     color: inherit;
+}
+
+/*SEPARADO PARA A PAGINA DE PORTIFOLIO*/
+
+.portifolio h1{
+    text-align: center;
+    height: 80px;
+}
+.portifolio .imgGalery a{
+   display: block;
+   margin-top: 10%;
+   font-family: montsserat;
+   font-size: 100px;
+   text-align: center;
+   color: #262626;
+   cursor: pointer;
+   text-decoration: none;
+}
+.imgGalery{
+    width: 100%;
+    height: 400px;
+    border: solid 1px grey;
+    border-bottom: #ffffff 5px solid;
+}
+.imgGalery::before{
+    background-color: #262626;
+}
+
+#prtf_img01{
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#prtf_img02{
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#prtf_img03{
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#prtf_img04{
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#prtf_img05{
+    background-image: url(../imagens/baner_casamento_teste.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
