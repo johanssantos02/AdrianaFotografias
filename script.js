@@ -6,10 +6,10 @@ $(function () {
     infinite: true,
   });
   $('.img-nav').slick({
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     asNavFor: '.imagens',
-    centerMode: false,
+    centerMode: true,
     centerPadding: '100px',
     focusOnSelect: true,
     adaptiveHeight: true,
@@ -18,6 +18,7 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
+    variableWidth: true,
     
     // responsive: [
     //   {
@@ -47,4 +48,4 @@ var botao = document.querySelector('input[type=button]');
 
 botao.addEventListener('click', () => {
   alert('Mensagem enviada com sucesso!')
-})
+});
